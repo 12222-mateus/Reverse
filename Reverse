@@ -2,9 +2,9 @@ string = ["abcdefghijklmno"]
 
 
 t = 0
-l = 14
+m = 14
 string2 = []
-while(t<= l):
-    string2.append(string[0][l])
-    l = l - 1
+while(t<= m):
+    string2.append(string[0][m])
+    m = m - 1
 print(string2)
