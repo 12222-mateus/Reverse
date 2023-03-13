@@ -1,0 +1,14 @@
+string = ["abcdefghijklmno"]
+#print("Digite algo para que seja revertido depois: ")
+#n = 0
+#while(n<1):
+#   string.append(input())
+#    n = n + 1
+#print(string[0][0])
+t = 0
+l = 14
+string2 = []
+while(t<= l):
+    string2.append(string[0][l])
+    l = l - 1
+print(string2)
